@@ -35,7 +35,7 @@ for (let f = 0; f < 20; f++){
 let randomNumber;
 do {
     randomNumber = Math.floor(Math.random() * 100) + 1;
-    console.log(randomNumber);
+    console.log("randomNumber");
 } while(randomNumber !==27 );
 
 //8
