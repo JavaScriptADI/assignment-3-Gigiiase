@@ -1,12 +1,12 @@
 // write your code in this directory
 // #1
 for (let g = 1; g < 11; g++) {
-    console.log("g");
+    console.log(g);
 }
 
 // #2
 for (let m = 10; m > 0; m--) {
-    console.log("m");
+    console.log(m);
 }
 // #3
 // let sum = 0; // cvladi shevqmenit da mivaniwet mnishvneloba
@@ -17,7 +17,7 @@ for (let m = 10; m > 0; m--) {
 
 //    #4
 for (let i = 0; i < 10; i += 2) {
-    console.log("i"); // 5 sheshvla moxdeba i=0 i=2 i=4 i=6 i=8
+    console.log(i); // 5 sheshvla moxdeba i=0 i=2 i=4 i=6 i=8
 }
 // #5
 //break steitmeenti aris loopis shemadgeneli nawili da sheuzlia lupidan gamoiyvanos operacia
@@ -29,7 +29,7 @@ for (let i = 0; i < 10; i += 2) {
 // 6
 for (let f = 0; f < 20; f++){
     if (f % 2 === 1) {continue;// Skip loop for kent numbers
-    }console.log("f");
+    }console.logf);
 }
 // 7
 let randomNumber;
@@ -51,7 +51,7 @@ for (let d = 0; d < 100; d++) {
         console.log("Buzz");
     }
     else {
-        console.log("d");
+        console.log(d);
     }
 }
 
@@ -68,7 +68,7 @@ let sum = 0;
 for (let r = 2; r <= 1000; r += 2) {
     sum += r;
 }
-console.log("sum");
+console.log(sum);
 
 //   11
 
@@ -77,7 +77,7 @@ for (let t = 1; t <= 1000; t++) {
     if (t % 3 === 0 || t % 5 === 0) {
         sum += t;
     }
-} console.log("jami");
+} console.log(jami);
 
 // 12
 let jamii = 0;
@@ -85,7 +85,7 @@ for (let t = 1; t <= 1000; t++) {
     if (t % 3 === 0 && t % 5 === 0) {
         sum += t;
     }
-} console.log("jamii");
+} console.log(jamii);
 
 
 
