@@ -27,11 +27,10 @@ for (let i = 0; i < 10; i += 2) {
 //console.log(i); }
 
 // 6
-for (let f = 0; f < 20; f++) {
+for (let f = 0; f < 20; f++){
     if (f % 2 === 1) {
-      continue;  // Skip loop for kent numbers
-    }
-    console.log(f); }
+    continue;  // Skip loop for kent numbers
+    }console.log(f); }
 
 // 7
 let randomNumber;
